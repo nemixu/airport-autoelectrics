@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: calc(100vh - 10.25rem);
+    color:rgb(109, 109, 109);
+    font-family: 'Roboto', sans-serif;
+}  
+
+
+.nav-main {
+    background: grey;
+    padding-top: 1.25rem;
+    padding-bottom:1.25rem;
+    z-index: 99;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all ease-in-out;
+}
+
+.nav-main-list-container{
+    display:flex;
+    position: relative;
+    top: 0.5rem;
+}  
+
+.nav-main-list {
+    padding-right:20px;
+}
+
+.nav-main-list ul a {
+    color: #fff;
+}
+
+.nav-main-list-items{
+    list-style:none;
+    padding-right:1rem;
+}
+
+.nav-main-inner {
+    margin-left: auto;
+}
+
+.nav-main-logo a {
+    padding-left: 30px;
+    color: #fff;
+}        
