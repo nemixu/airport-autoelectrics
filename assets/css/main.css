@@ -12,7 +12,7 @@ body {
 
 
 .nav-main {
-    background: grey;
+    background: #FFFFFF;
     padding-top: 1.25rem;
     padding-bottom:1.25rem;
     z-index: 99;
@@ -34,7 +34,7 @@ body {
 }
 
 .nav-main-list ul a {
-    color: #fff;
+    color: #14213D;
 }
 
 .nav-main-list-items{
@@ -48,5 +48,47 @@ body {
 
 .nav-main-logo a {
     padding-left: 30px;
-    color: #fff;
+    color: #14213D;
 }        
+
+.nav-main-list ul a:hover,
+.nav-main-logo a:hover {
+    color: #FCA311;
+} 
+
+.logo-img {
+    width: 100px;
+}
+
+.main-bg {
+    background: #FCA311;
+    height: 100vh;
+}
+
+.landing-text {
+    padding-top: 200px;
+    color: #000000;
+}
+
+.sub-landing-text {
+    color: #000000; 
+}
+
+.btn-call {
+    color: #fff;
+    background-color: #14213D;
+    border-color: #14213D;
+}
+
+.btn-call:hover {
+    color: #fff;
+    background-color: #14213de3;
+    border-color: #14213de3;
+}
+
+.about-us {
+    background: #fff;
+    height:100vh;
+
+
+}
