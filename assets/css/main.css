@@ -61,13 +61,23 @@ body {
 }
 
 .main-bg {
-    background: #FCA311;
-    height: 100vh;
+    height: 80vh;
+}
+
+.bg-image{
+    background: url('/assets/images/car2.jpg') no-repeat center
+  center;
+    margin-top: 90px;
+    height: 80vh!important;
+    background-size: cover;
+    z-index: -1;
+
 }
 
 .landing-text {
     padding-top: 200px;
     color: #000000;
+    z-index: 150;
 }
 
 .sub-landing-text {
@@ -87,8 +97,38 @@ body {
 }
 
 .about-us {
-    background: #fff;
+    background: #14213D;
     height:100vh;
+}
 
+.about-us-header {
+    padding-top:200px;
+    color: #FCA311;
+}
 
+.icons {
+    font-size: 5rem;
+    color: #FCA311;
+}
+.services {
+    height:100vh;
+}
+
+.services-header {
+    padding-top:200px;
+    color: #14213D;
+}
+
+.services-text {
+    color: #14213D;
+}
+
+.services-images {
+    height: 200px;
+}
+
+.contact {
+    padding-top:200px;
+    height: 100vh;
+    background: #14213D;
 }
