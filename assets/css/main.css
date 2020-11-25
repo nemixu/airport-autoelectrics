@@ -5,41 +5,42 @@ html {
 
 body {
     height: calc(100vh - 10.25rem);
-    color:rgb(109, 109, 109);
+    color: rgb(109, 109, 109);
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.1rem;
-}  
+}
 
 
 .nav-main {
     background: #FFFFFF;
     padding-top: 1.25rem;
-    padding-bottom:1.25rem;
+    padding-bottom: 1.25rem;
     z-index: 99;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.5s all ease-in-out;
 }
 
-.nav-main-list-container{
-    display:flex;
+.nav-main-list-container {
+    display: flex;
     position: relative;
     top: 0.5rem;
-}  
-
-.nav-main-list {
-    padding-right:1.25rem;
 }
 
-.nav-main-list ul a {
+.nav-main-list {
+    padding-right: 1.25rem;
+}
+
+.nav-main-list ul a,
+.fa-bars {
     color: #14213D;
 }
 
-.nav-main-list-items{
-    list-style:none;
-    padding-right:1rem;
+.nav-main-list-items {
+    list-style: none;
+    padding-right: 1rem;
 }
 
 .nav-main-inner {
@@ -49,7 +50,7 @@ body {
 .nav-main-logo a {
     padding-left: 30px;
     color: #14213D;
-}        
+}
 
 .nav-main-list ul a:hover,
 .nav-main-logo a:hover {
@@ -68,7 +69,7 @@ body {
     background: url('/assets/images/mech.jpg') no-repeat center
   center;
     margin-top: 90px;
-    height: 80vh!important;
+    height: 80vh !important;
     background-size: cover;
     z-index: -1;
 
@@ -81,7 +82,7 @@ body {
 }
 
 .sub-landing-text {
-    color: #000000; 
+    color: #000000;
 }
 
 .btn-call {
@@ -98,7 +99,7 @@ body {
 
 .about-us {
     background: #14213D;
-    height:100vh;
+    height: 100%;
 }
 
 .about-us-header {
@@ -110,12 +111,13 @@ body {
     font-size: 5rem;
     color: orangered;
 }
+
 .services {
-    height:100vh;
+    height: 100%;
 }
 
 .services-header {
-    padding-top:200px;
+    padding-top: 200px;
     color: #14213D;
 }
 
@@ -128,8 +130,8 @@ body {
 }
 
 .contact {
-    padding-top:200px;
-    height: 100vh;
+    padding-top: 200px;
+    height: 100%;
     background: #14213D;
 }
 
