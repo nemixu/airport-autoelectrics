@@ -53,7 +53,7 @@ body {
 
 .nav-main-list ul a:hover,
 .nav-main-logo a:hover {
-    color: #FCA311;
+    color: orangered;
 } 
 
 .logo-img {
@@ -65,7 +65,7 @@ body {
 }
 
 .bg-image{
-    background: url('/assets/images/car2.jpg') no-repeat center
+    background: url('/assets/images/mech.jpg') no-repeat center
   center;
     margin-top: 90px;
     height: 80vh!important;
@@ -103,12 +103,12 @@ body {
 
 .about-us-header {
     padding-top:200px;
-    color: #FCA311;
+    color: orangered;
 }
 
 .icons {
     font-size: 5rem;
-    color: #FCA311;
+    color: orangered;
 }
 .services {
     height:100vh;
@@ -131,4 +131,139 @@ body {
     padding-top:200px;
     height: 100vh;
     background: #14213D;
+}
+
+.footer-container {
+    background: #fff;
+    height: 92px;
+    position: relative;
+}
+
+.footer-row {
+    top:50%;
+    height:5rem;
+    margin-top: -2.5rem;
+}
+
+.footer-icon {
+    position: relative;
+    bottom: 9px;
+    right: 33px;
+}
+.footer-circle {
+    font-size: 2.5rem;
+}
+
+
+.mobile-nav {
+    background: #212529;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 85%;
+    max-width: 20rem;
+    height:100%;
+    transition: 0.5s all ease-in-out;
+    transform: translateX(-175%);
+  }
+    
+  .mobile-nav-button {
+    position: relative;
+    bottom: 2.3125rem;
+    left: 11.8125rem;
+    background:#FF4500;
+    padding: 1.125rem;
+    border-radius: 0 3px 3px 0;
+    border: none;
+  }
+  
+  .mobile-nav-links {
+    list-style: none;
+    padding:0;
+  }
+  
+  .mobile-nav-img {
+    padding-top:10%;
+    max-width: 60%;
+  }
+  
+  .mobile-nav-link-items{
+    padding: 1.25rem;
+    border-bottom: 1px solid rgba(255, 255,255, 0.4);
+  }
+  
+  .mobile-nav-link-items i:hover {
+    color: orangered!important;
+  }
+
+  .overlay-nav {
+    opacity: 0.8;
+    visibility: visible;
+    z-index: 99;
+    transform: translateX(0%)!important;
+  }
+
+  .overlay {
+    height:100%;
+    width: 100%;
+    top:0;
+    left:0;
+    position: fixed;
+    background:black;
+    z-index: -1;
+  }
+  
+  .white-overlay {
+    height:100%;
+    width: 100%;
+    top:0;
+    left:0;
+    position: fixed;
+    background:#fff;
+    z-index: -1;
+  }
+
+  .nav-background {
+    position:fixed;
+    display: none;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background: #000;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .transition {
+    display: inline-block!important;
+    transition: 0.5s all ease-in-out;
+    transform: translateX(0%)!important;
+  }
+
+  .totop-button {
+    cursor: pointer;
+    height:2.1875rem;
+    width:2.1875rem;
+    color: #fff;
+    position:fixed;
+    bottom:0.625rem;
+    right: -50px;
+    background:#FF4500;
+    z-index: 99999;
+    transform: translateX(0px);
+    transition: right 0.5s ease-in-out;
+  }
+
+  .slide-in {
+    transform: translateX(0px);
+    transition: right 0.5s ease-in-out;
+    right: 20px !important;
+}
+
+a:hover {
+    text-decoration: none;
 }
