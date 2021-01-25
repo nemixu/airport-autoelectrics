@@ -65,10 +65,10 @@ body {
 }
 
 .bg-image{
-    background: url('/assets/images/mech.jpg') no-repeat center
+    background: url('/assets/images/auto-car.jpg') no-repeat center
   center;
     margin-top: 90px;
-    height: 80vh!important;
+    height: 90vh!important;
     background-size: cover;
     z-index: -1;
 
@@ -86,32 +86,36 @@ body {
 
 .btn-call {
     color: #fff;
-    background-color: #14213D;
-    border-color: #14213D;
+    background-color: #ff4500;
+    border-color: #ff4500;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, .4);
 }
 
 .btn-call:hover {
     color: #fff;
-    background-color: #14213de3;
-    border-color: #14213de3;
+    background-color: #ff450094;
+    border-color: #ff450094;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, .4);
 }
 
 .about-us {
     background: #14213D;
-    height:100vh;
+    padding-bottom: 200px;
 }
 
 .about-us-header {
     padding-top:200px;
-    color: orangered;
+    color: #fff;
 }
 
 .icons {
-    font-size: 5rem;
-    color: orangered;
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, .4);
 }
+
 .services {
-    height:100vh;
+    padding-bottom: 150px;
 }
 
 .services-header {
@@ -124,12 +128,14 @@ body {
 }
 
 .services-images {
-    height: 200px;
+    height: 140px;
+    width: 140px;
+    padding-bottom:50px;
 }
 
 .contact {
-    padding-top:200px;
-    height: 100vh;
+    padding-top:300px;
+    padding-bottom:300px;
     background: #14213D;
 }
 
