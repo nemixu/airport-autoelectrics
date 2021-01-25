@@ -65,7 +65,7 @@ body {
 }
 
 .bg-image{
-    background: url('assets/images/auto-car.jpg') no-repeat center
+    background: url('../images/auto-car.jpg') no-repeat center
   center;
     margin-top: 90px;
     height: 90vh!important;
