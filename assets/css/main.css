@@ -60,6 +60,19 @@ body {
     width: 100px;
 }
 
+.card-sizing {
+    width: 12rem;
+}
+
+#altenator {
+    height: 11rem;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #14213D;
+}
+
 .main-bg {
     height: 80vh;
 }
