@@ -109,7 +109,7 @@ body {
 }
 
 .icons {
-    font-size: 3.5rem;
+    font-size: 2em;
     color: #fff;
     text-shadow: 3px 5px 5px rgba(0, 0, 0, .4);
 }
@@ -156,6 +156,7 @@ body {
     bottom: 9px;
     right: 33px;
 }
+
 .footer-circle {
     font-size: 2.5rem;
 }
@@ -219,6 +220,29 @@ body {
     background:black;
     z-index: -1;
   }
+
+  .overlay-services {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fff;
+  }
+
+  .services-text:hover .overlay-services {
+    opacity: 0.8;
+    background:#fff;
+  }
+
+  .text {
+      position:relative;
+      top:50%;
+  }
   
   .white-overlay {
     height:100%;
@@ -276,4 +300,9 @@ a:hover {
 
 .contact-links {
     color:#14213D;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
 }
