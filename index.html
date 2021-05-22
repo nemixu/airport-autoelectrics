@@ -28,16 +28,16 @@
                 </div>
             </div>
             <!-- Mobile Nav bar-->
-            <li class="list-inline-item d-block d-lg-none">
+            <li class="list-inline-item d-block d-lg-none mobile-nav-styling">
                     <a aria-label="open navigation button" class="burger-button" href="#"><i class="fas fa-bars fa-lg text-black"></i></a>
                 </li>
             <div class="mobile-nav">
                 <div class="mobile-nav-inner">
                     <ul class="mobile-nav-links">
-                        <li class="mobile-nav-link-items text-black"><a class="text-black anchor-fill" aria-label="home" href=""><i class="fas fa-home pr-2"></i>Home</a></li>
-                        <li class="mobile-nav-link-items text-black"><a class="text-black anchor-fill" aria-label="classes" href=""><i class="fas fa-shopping-basket pr-2"></i>About</a></li>
-                        <li class="mobile-nav-link-items text-black"><a class="text-black anchor-fill" aria-label="services" href=""><i class="fas fa-envelope pr-2"></i>Services</a></li>
-                        <li class="mobile-nav-link-items text-black"><a class="text-black anchor-fill" aria-label="contact" href=""><i class="fas fa-envelope pr-2"></i>Contact</a></li>
+                        <li class="mobile-nav-link-items "><a class=" anchor-fill" aria-label="home" href="#home"><i class="icon-class-style fas fa-home pr-2"></i>Home</a></li>
+                        <li class="mobile-nav-link-items "><a class=" anchor-fill" aria-label="classes" href="#about"><i class="icon-class-style fas fa-shopping-basket pr-2"></i>About</a></li>
+                        <li class="mobile-nav-link-items "><a class=" anchor-fill" aria-label="services" href="#services"><i class="icon-class-style fas fa-envelope pr-2"></i>Services</a></li>
+                        <li class="mobile-nav-link-items "><a class=" anchor-fill" aria-label="contact" href="#contact"><i class="icon-class-style fas fa-envelope pr-2"></i>Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,63 +88,77 @@
         <!--services section--> 
         <section class="services" id="services">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <h3 class="services-header mb-5">Services</h3>
                     </div>
-                    <div class="card card-sizing mr-1">
-                        <img class="card-img-top" src="assets/images/starter.png" alt="Starter">
-                        <div class="card-body">
-                            <h5 class="card-title">Starter Motors</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card card-sizing mr-1">
-                        <img class="card-img-top" src="assets/images/alternator.png" alt="Alternators" id="altenator">
-                        <div class="card-body">
-                            <h5 class="card-title">Alternators</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card card-sizing mr-1">
+                    <div class="card card-sizing">
                         <img class="card-img-top" src="assets/images/tytan-security.png" alt="Security">
                         <div class="card-body">
                             <h5 class="card-title">Vehicle Security</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
-                    <div class="card card-sizing mr-1">
-                        <img class="card-img-top" src="assets/images/dash.png" alt="Dash">
-                        <div class="card-body">
-                            <h5 class="card-title">Dash Camera</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card card-sizing mr-1">
-                        <img class="card-img-top" src="assets/images/tytan-security.png" alt="Hands free">
-                        <div class="card-body">
-                            <h5 class="card-title">Hands Free</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card card-sizing mr-1">
+                    <div class="card card-sizing">
                         <img class="card-img-top" src="assets/images/reverse.png" alt="Reverse">
                         <div class="card-body">
                             <h5 class="card-title">Reverse Aids</h5>
                             <p class="card-text">A range of high quality reverse cameras and sensors.</p>
                         </div>
                     </div>
-                    <div class="card card-sizing mr-1">
+                    <div class="card card-sizing">
+                        <img class="card-img-top" src="assets/images/dash.png" alt="Dash">
+                        <div class="card-body">
+                            <h5 class="card-title">Dash Camera</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card card-sizing">
+                        <img class="card-img-top" src="assets/images/starter.png" alt="Starter">
+                        <div class="card-body">
+                            <h5 class="card-title">Starter Motors</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card card-sizing">
+                        <img class="card-img-top" src="assets/images/alternator.png" alt="Alternators" id="altenator">
+                        <div class="card-body">
+                            <h5 class="card-title">Alternators</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card card-sizing">
+                        <img class="card-img-top" src="assets/images/tytan-security.png" alt="Hands free">
+                        <div class="card-body">
+                            <h5 class="card-title">Hands Free</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card card-sizing">
                         <img class="card-img-top" src="assets/images/tracker.png" alt="Tracking">
                         <div class="card-body">
                             <h5 class="card-title">Tracking</h5>
                             <p class="card-text">Vehicle tracking devices</p>
                         </div>
                     </div>
-                    <div class="card card-sizing mr-1">
+                    <div class="card card-sizing">
                         <img class="card-img-top" src="assets/images/led.png" alt="Reverse">
                         <div class="card-body">
                             <h5 class="card-title">LED Lighting</h5>
+                            <p class="card-text">A range of high quality reverse cameras and sensors.</p>
+                        </div>
+                    </div>
+                    <div class="card card-sizing">
+                        <img class="card-img-top" src="assets/images/audio.png" alt="Audio">
+                        <div class="card-body">
+                            <h5 class="card-title">Car Audio Upgrades</h5>
+                            <p class="card-text">A range of high quality reverse cameras and sensors.</p>
+                        </div>
+                    </div>
+                    <div class="card card-sizing">
+                        <img class="card-img-top" src="assets/images/diagnostic.png" alt="Faults">
+                        <div class="card-body">
+                            <h5 class="card-title">Fault Finding</h5>
                             <p class="card-text">A range of high quality reverse cameras and sensors.</p>
                         </div>
                     </div>
@@ -177,9 +191,9 @@
                             <i class="icons fab fa-facebook-messenger"></i>
                         </a>
                     </div>
-                    <div class="col-sm-12 col-md-6">
+                    <!-- <div class="col-sm-12 col-md-6">
                         <iframe async="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.8812998498215!2d-6.240260384007048!3d53.416948977121336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486711c610a2e9c5%3A0xde59b8b2fefeaa65!2sAirport+Alarms+%26+Auto+Electrics!5e0!3m2!1sen!2sie!4v1528809025079" width="600px" height="300px" style="border:0" allowfullscreen=""></iframe>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>

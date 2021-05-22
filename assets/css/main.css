@@ -56,21 +56,45 @@ body {
     color: orangered;
 } 
 
+.mobile-nav-styling{
+    margin-left: auto;
+}
+
+.mobile-nav-link-items a {
+    color:white;
+}
+
+.icon-class-style{
+    color:orangered;
+}
+.fa-bars {
+    color:#14213D;
+}
+
 .logo-img {
     width: 100px;
 }
 
 .card-sizing {
-    width: 12rem;
+    width: 14rem;
 }
 
-#altenator {
+/* #altenator {
     height: 11rem;
-}
+} */
 
 .card-title {
     font-weight: bold;
     color: #14213D;
+}
+
+.card-img-top {
+    text-align: center;
+    justify-content: hei;
+    height: 8rem;
+    width: 8rem;
+
+    align-self: center;
 }
 
 .main-bg {
@@ -218,9 +242,9 @@ body {
   }
 
   .overlay-nav {
-    opacity: 0.8;
+    opacity: 0.8!important;
     visibility: visible;
-    z-index: 99;
+    z-index: 98;
     transform: translateX(0%)!important;
   }
 

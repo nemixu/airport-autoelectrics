@@ -1,6 +1,9 @@
 const burgerIcon = $('.burger-button');
 const mobileNav = $('.mobile-nav');
 const mobileNavBg = $('.nav-background');
+const mobileNavItem = $('.mobile-nav-link-items');
+const toTop = document.getElementById('top-button');
+const toTopMobile = $('top-button');
 
 burgerIcon.click(function(){
     mobileNavBg.show();
@@ -14,7 +17,11 @@ mobileNavBg.click(function(){
     mobileNav.removeClass('transition');
 })
 
-let toTop = document.getElementById('top-button');
+mobileNavItem.click(function(){
+    mobileNavBg.removeClass('overlay-nav');
+    mobileNav.removeClass('transition');
+})
+
 
 window.addEventListener('scroll', () => {
     if(window.scrollY > 700){
